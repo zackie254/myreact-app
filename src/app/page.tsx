@@ -1,6 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
-
+import { Header } from './components/header'
+import { Footer } from './components/footer'
+import { HeroSection } from './components/hero-section'
+import Content from './components/content'
+import Feature from './components/feature'
+import Contact from './components/contact'
+import Router from 'next/router'
 
 export default function Home() {
 
@@ -8,14 +14,8 @@ export default function Home() {
     
 
     <main>
-      <header></header>
-      <body>
-        <h1>My App</h1>
-        <button> Dashnoard</button>
-        <Link href="/about">About</Link>
-      </body>
-      <footer></footer>
-
+          
+      
     </main>
   )
 }
